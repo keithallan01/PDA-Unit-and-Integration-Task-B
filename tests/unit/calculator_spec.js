@@ -23,4 +23,9 @@ describe('calculator', function () {
     assert.equal(3, calculator.runningTotal)
   })
 
+  it('should be able to multiply', function(){
+    calculator.previousTotal = 3
+    calculator.multiply(5)
+    assert.equal(15, calculator.runningTotal)
+  })
 });
