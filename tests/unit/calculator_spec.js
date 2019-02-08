@@ -61,5 +61,5 @@ describe('calculator', function () {
     calculator.operatorClick('/')
     calculator.numberClick('2')
     assert.equal(2, calculator.runningTotal)
-  })
+  }
 });
